@@ -2,8 +2,8 @@
 
 $host = 'localhost';
 $db = 'moodle_php';
-$user = 'root'; // change if using a different username
-$pass = '';     // change if you have a MySQL password
+$user = 'root'; 
+$pass = '';     
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
